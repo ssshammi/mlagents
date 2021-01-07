@@ -84,11 +84,17 @@ public class WallJumpAgent : Agent
     public void Jump()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rifleman.SetBool("isJump", true);
         Rifleman.SetBool("isWalk", false);
         Rifleman.SetBool("isIdle", false);
 =======
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+        Rifleman.SetBool("isJump", true);
+        Rifleman.SetBool("isWalk", false);
+        Rifleman.SetBool("isIdle", false);
+>>>>>>> 825b61d (updated again All done)
         jumpingTime = 0.3f;
         m_JumpStartingPos = m_AgentRb.position;
     }
@@ -207,9 +213,15 @@ public class WallJumpAgent : Agent
     {
         AddReward(-0.0005f);
 
+<<<<<<< HEAD
         Rifleman.SetBool("isJump", false);
         Rifleman.SetBool("isWalk", true);
         Rifleman.SetBool("isIdle", false);
+=======
+        /*Rifleman.SetBool("isJump", false);
+        Rifleman.SetBool("isWalk", true);
+        Rifleman.SetBool("isIdle", false);*/
+>>>>>>> 825b61d (updated again All done)
 
         var smallGrounded = DoGroundCheck(true);
         var largeGrounded = DoGroundCheck(false);
@@ -245,7 +257,13 @@ public class WallJumpAgent : Agent
             else
             {
 
+<<<<<<< HEAD
               
+=======
+                Rifleman.SetBool("isJump", false);
+                Rifleman.SetBool("isWalk", true);
+                Rifleman.SetBool("isIdle", false);
+>>>>>>> 825b61d (updated again All done)
             }
 
         transform.Rotate(rotateDir, Time.fixedDeltaTime * 300f);

@@ -34,6 +34,9 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 825b61d (updated again All done)
     clipAnimations:
     - serializedVersion: 16
       name: mixamo.com
@@ -64,9 +67,12 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
+<<<<<<< HEAD
 =======
     clipAnimations: []
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+>>>>>>> 825b61d (updated again All done)
     isReadable: 0
   meshes:
     lODScreenPercentages: []
