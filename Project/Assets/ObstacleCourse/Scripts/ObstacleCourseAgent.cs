@@ -8,7 +8,7 @@ using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 using Unity.MLAgentsExamples;
 
-public class WallJumpAgent : Agent
+public class ObstacleCourseAgent : Agent
 {
     // Depending on this value, the wall will have different height
     int m_Configuration;
@@ -82,7 +82,7 @@ public class WallJumpAgent : Agent
     // Begin the jump sequence
     public void Jump()
     {
-        jumpingTime = 0.3f;
+        jumpingTime = 0.2f;
         m_JumpStartingPos = m_AgentRb.position;
     }
 
@@ -347,14 +347,14 @@ public class WallJumpAgent : Agent
         {
             localScale = new Vector3(
                 localScale.x,
-                m_ResetParams.GetWithDefault("small_wall_height", 2),
+                m_ResetParams.GetWithDefault("small_wall_height", 4),
                 localScale.z);
             wall.transform.localScale = localScale;
             SetModel(m_SmallWallBehaviorName, smallWallBrain);
         }
         else
         {
-            var height = m_ResetParams.GetWithDefault("big_wall_height", 4);
+            var height = m_ResetParams.GetWithDefault("big_wall_height", 8);
             localScale = new Vector3(
                 localScale.x,
                 height,
