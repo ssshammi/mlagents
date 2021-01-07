@@ -83,9 +83,12 @@ public class WallJumpAgent : Agent
     // Begin the jump sequence
     public void Jump()
     {
+<<<<<<< HEAD
         Rifleman.SetBool("isJump", true);
         Rifleman.SetBool("isWalk", false);
         Rifleman.SetBool("isIdle", false);
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
         jumpingTime = 0.3f;
         m_JumpStartingPos = m_AgentRb.position;
     }

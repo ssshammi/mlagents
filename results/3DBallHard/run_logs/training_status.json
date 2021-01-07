@@ -1,0 +1,30 @@
+{
+    "3DBallHard": {
+        "checkpoints": [
+            {
+                "steps": 499944,
+                "file_path": "results/3DBallHard/3DBallHard/3DBallHard-499944.onnx",
+                "reward": 100.00001525878906,
+                "creation_time": 1609997361.826889
+            },
+            {
+                "steps": 504944,
+                "file_path": "results/3DBallHard/3DBallHard/3DBallHard-504944.onnx",
+                "reward": 100.00001525878906,
+                "creation_time": 1609997362.2425752
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 504944,
+            "file_path": "results/3DBallHard/3DBallHard.onnx",
+            "reward": 100.00001525878906,
+            "creation_time": 1609997362.2425752
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1",
+        "tensorflow_version": -1
+    }
+}

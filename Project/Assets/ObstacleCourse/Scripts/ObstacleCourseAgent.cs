@@ -35,7 +35,10 @@ public class ObstacleCourseAgent : Agent
 
     public float jumpingTime;
     public float jumpTime;
+<<<<<<< HEAD
     public Animator Rifleman;
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
     // This is a downward force applied when falling to make jumps look
     // less floaty
     public float fallingForce;
@@ -83,9 +86,12 @@ public class ObstacleCourseAgent : Agent
     // Begin the jump sequence
     public void Jump()
     {
+<<<<<<< HEAD
         Rifleman.SetBool("isJump", true);
         Rifleman.SetBool("isWalk", false);
         Rifleman.SetBool("isIdle", false);
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
         jumpingTime = 0.2f;
         m_JumpStartingPos = m_AgentRb.position;
     }
@@ -200,9 +206,12 @@ public class ObstacleCourseAgent : Agent
     public void MoveAgent(ActionSegment<int> act)
     {
         AddReward(-0.0005f);
+<<<<<<< HEAD
         Rifleman.SetBool("isJump", false);
         Rifleman.SetBool("isWalk", true);
         Rifleman.SetBool("isIdle", false);
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
         var smallGrounded = DoGroundCheck(true);
         var largeGrounded = DoGroundCheck(false);
 

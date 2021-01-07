@@ -6,6 +6,7 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: mixamo.com
+<<<<<<< HEAD
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -62,6 +63,9 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Ch49_1002_Specular
     second: {fileID: 2800000, guid: 3589c651acd5043b38d5b7ae93899674, type: 3}
+=======
+  externalObjects: {}
+>>>>>>> f4debb3 (Updated a Obstacle Course)
   materials:
     materialImportMode: 1
     materialName: 0
@@ -80,14 +84,20 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+<<<<<<< HEAD
     importConstraints: 1
     animationCompression: 3
+=======
+    importConstraints: 0
+    animationCompression: 1
+>>>>>>> f4debb3 (Updated a Obstacle Course)
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
+<<<<<<< HEAD
     clipAnimations:
     - serializedVersion: 16
       name: mixamo.com
@@ -118,6 +128,9 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
+=======
+    clipAnimations: []
+>>>>>>> f4debb3 (Updated a Obstacle Course)
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -181,7 +194,11 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+<<<<<<< HEAD
   avatarSetup: 1
+=======
+  avatarSetup: 0
+>>>>>>> f4debb3 (Updated a Obstacle Course)
   additionalBone: 0
   userData: 
   assetBundleName: 

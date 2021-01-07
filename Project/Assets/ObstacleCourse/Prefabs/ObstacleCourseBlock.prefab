@@ -109,7 +109,10 @@ Transform:
   m_LocalPosition: {x: -4.58, y: 0.77, z: -7.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 327178841730609661}
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
   - {fileID: 7426870967634613796}
   - {fileID: 4238879128256220}
   m_Father: {fileID: 4768003208014390}
@@ -168,7 +171,11 @@ MonoBehaviour:
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 11400000, guid: 93a9d0feb982d4a02b81f7fbccd0d2b1, type: 3}
   m_InferenceDevice: 0
+<<<<<<< HEAD
   m_BehaviorType: 0
+=======
+  m_BehaviorType: 1
+>>>>>>> f4debb3 (Updated a Obstacle Course)
   m_BehaviorName: SmallWallJump
   TeamId: 0
   m_UseChildSensors: 1
@@ -190,10 +197,15 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
+<<<<<<< HEAD
   noWallBrain: {fileID: 5022602860645237092, guid: 5033e8099afb2495a894a55c18d5b6de,
     type: 3}
   smallWallBrain: {fileID: 5022602860645237092, guid: 5033e8099afb2495a894a55c18d5b6de,
     type: 3}
+=======
+  noWallBrain: {fileID: 11400000, guid: fb2ce36eb40b6480e94ea0b5d7573e47, type: 3}
+  smallWallBrain: {fileID: 11400000, guid: fb2ce36eb40b6480e94ea0b5d7573e47, type: 3}
+>>>>>>> f4debb3 (Updated a Obstacle Course)
   bigWallBrain: {fileID: 11400000, guid: 0468bf44b1efd4992b6bf22cadb50d89, type: 3}
   ground: {fileID: 1324926338613664}
   spawnArea: {fileID: 1886170194660384}
@@ -203,7 +215,10 @@ MonoBehaviour:
   jumpingTime: 0
   jumpTime: 0.2
   fallingForce: 111
+<<<<<<< HEAD
   Rifleman: {fileID: 5938686296143539079}
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
   hitGroundColliders:
   - {fileID: 0}
   - {fileID: 0}
@@ -333,10 +348,13 @@ Transform:
   - {fileID: 505793779653793463}
   - {fileID: 3354676889301386139}
   - {fileID: 7515594019012527629}
+<<<<<<< HEAD
   - {fileID: 8253229671380398375}
   - {fileID: 7340023123781129644}
   - {fileID: 6949719087919264962}
   - {fileID: 166992308064545853}
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -463,7 +481,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395477826315484}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0.83, y: 0.84, z: -2.83}
+=======
+  m_LocalPosition: {x: 0.83, y: 1.55, z: -2.83}
+>>>>>>> f4debb3 (Updated a Obstacle Course)
   m_LocalScale: {x: 0.01, y: 0.0063629, z: 0.01}
   m_Children: []
   m_Father: {fileID: 4768003208014390}
@@ -668,12 +690,20 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823012949159486}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0.02, y: 1.93, z: 0.04}
+=======
+  m_LocalPosition: {x: 0, y: 0.95, z: 0}
+>>>>>>> f4debb3 (Updated a Obstacle Course)
   m_LocalScale: {x: 1, y: 3.5796921, z: 1}
   m_Children:
   - {fileID: 4171412309080586}
   m_Father: {fileID: 4651390251185036}
+<<<<<<< HEAD
   m_RootOrder: 2
+=======
+  m_RootOrder: 1
+>>>>>>> f4debb3 (Updated a Obstacle Course)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33966533147322750
 MeshFilter:
@@ -1009,6 +1039,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &166992308064972509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1185,6 +1216,8 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 216425743639189014}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
 --- !u!1001 &1467694915152846086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1560,6 +1593,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6347240155034531150}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1001 &6949719087919089262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1710,6 +1744,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7340023123781494528}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
 --- !u!1001 &7459274008913176207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1785,6 +1821,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7459274008913176207}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1001 &8253229671379960715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1860,6 +1897,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8253229671379960715}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
 --- !u!1001 &8927481341471653894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1867,11 +1906,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4651390251185036}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 2086647880595778208, guid: 943c29498ab959842b6d7bee1f42370e,
         type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
     - target: {fileID: 2086647880595778222, guid: 943c29498ab959842b6d7bee1f42370e,
         type: 3}
       propertyPath: m_LocalScale.y
@@ -1885,12 +1927,20 @@ PrefabInstance:
     - target: {fileID: 2086647880595778222, guid: 943c29498ab959842b6d7bee1f42370e,
         type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0.31
+=======
+      value: 0.57
+>>>>>>> f4debb3 (Updated a Obstacle Course)
       objectReference: {fileID: 0}
     - target: {fileID: 2086647881361348130, guid: 943c29498ab959842b6d7bee1f42370e,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 1
+=======
+      value: 0
+>>>>>>> f4debb3 (Updated a Obstacle Course)
       objectReference: {fileID: 0}
     - target: {fileID: 2086647881361348130, guid: 943c29498ab959842b6d7bee1f42370e,
         type: 3}
@@ -1910,7 +1960,11 @@ PrefabInstance:
     - target: {fileID: 2086647881361348130, guid: 943c29498ab959842b6d7bee1f42370e,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: 2.02
+=======
+      value: 1.48
+>>>>>>> f4debb3 (Updated a Obstacle Course)
       objectReference: {fileID: 0}
     - target: {fileID: 2086647881361348130, guid: 943c29498ab959842b6d7bee1f42370e,
         type: 3}
@@ -1952,11 +2006,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 2086647881361348132, guid: 943c29498ab959842b6d7bee1f42370e,
         type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> f4debb3 (Updated a Obstacle Course)
     - target: {fileID: 2086647881361348134, guid: 943c29498ab959842b6d7bee1f42370e,
         type: 3}
       propertyPath: m_Name

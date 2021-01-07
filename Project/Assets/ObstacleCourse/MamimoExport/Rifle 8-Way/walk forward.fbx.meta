@@ -25,7 +25,11 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+<<<<<<< HEAD
     importConstraints: 1
+=======
+    importConstraints: 0
+>>>>>>> f4debb3 (Updated a Obstacle Course)
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -33,6 +37,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
+<<<<<<< HEAD
     clipAnimations:
     - serializedVersion: 16
       name: mixamo.com
@@ -63,6 +68,9 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
+=======
+    clipAnimations: []
+>>>>>>> f4debb3 (Updated a Obstacle Course)
     isReadable: 0
   meshes:
     lODScreenPercentages: []
