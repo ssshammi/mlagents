@@ -38,6 +38,7 @@ public class WallJumpAgent : Agent
     // This is a downward force applied when falling to make jumps look
     // less floaty
     public float fallingForce;
+    public Animator Rifleman;
     // Use to check the coliding objects
     public Collider[] hitGroundColliders = new Collider[3];
     Vector3 m_JumpTargetPos;
@@ -82,6 +83,9 @@ public class WallJumpAgent : Agent
     // Begin the jump sequence
     public void Jump()
     {
+        Rifleman.SetBool("isJump", true);
+        Rifleman.SetBool("isWalk", false);
+        Rifleman.SetBool("isIdle", false);
         jumpingTime = 0.3f;
         m_JumpStartingPos = m_AgentRb.position;
     }
@@ -196,6 +200,11 @@ public class WallJumpAgent : Agent
     public void MoveAgent(ActionSegment<int> act)
     {
         AddReward(-0.0005f);
+
+        /*Rifleman.SetBool("isJump", false);
+        Rifleman.SetBool("isWalk", true);
+        Rifleman.SetBool("isIdle", false);*/
+
         var smallGrounded = DoGroundCheck(true);
         var largeGrounded = DoGroundCheck(false);
 
@@ -222,6 +231,13 @@ public class WallJumpAgent : Agent
             if ((jumpingTime <= 0f) && smallGrounded)
             {
                 Jump();
+            }
+            else
+            {
+
+                Rifleman.SetBool("isJump", false);
+                Rifleman.SetBool("isWalk", true);
+                Rifleman.SetBool("isIdle", false);
             }
 
         transform.Rotate(rotateDir, Time.fixedDeltaTime * 300f);
