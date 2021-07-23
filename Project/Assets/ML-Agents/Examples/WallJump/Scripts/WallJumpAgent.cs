@@ -158,6 +158,9 @@ public class WallJumpAgent : Agent
             rb.velocity = Vector3.MoveTowards(
                 rb.velocity, velocityTarget, maxVel);
         }
+        Rifleman.SetBool("isJump", false);
+        Rifleman.SetBool("isWalk", true);
+        Rifleman.SetBool("isIdle", false);
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -201,9 +204,9 @@ public class WallJumpAgent : Agent
     {
         AddReward(-0.0005f);
 
-        /*Rifleman.SetBool("isJump", false);
+        Rifleman.SetBool("isJump", false);
         Rifleman.SetBool("isWalk", true);
-        Rifleman.SetBool("isIdle", false);*/
+        Rifleman.SetBool("isIdle", false);
 
         var smallGrounded = DoGroundCheck(true);
         var largeGrounded = DoGroundCheck(false);
@@ -216,7 +219,11 @@ public class WallJumpAgent : Agent
         var jumpAction = act[3];
 
         if (dirToGoForwardAction == 1)
+        {
+
             dirToGo = (largeGrounded ? 1f : 0.5f) * 1f * transform.forward;
+  
+        }
         else if (dirToGoForwardAction == 2)
             dirToGo = (largeGrounded ? 1f : 0.5f) * -1f * transform.forward;
         if (rotateDirAction == 1)
@@ -235,9 +242,7 @@ public class WallJumpAgent : Agent
             else
             {
 
-                Rifleman.SetBool("isJump", false);
-                Rifleman.SetBool("isWalk", true);
-                Rifleman.SetBool("isIdle", false);
+              
             }
 
         transform.Rotate(rotateDir, Time.fixedDeltaTime * 300f);

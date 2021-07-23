@@ -168,7 +168,7 @@ MonoBehaviour:
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 11400000, guid: 93a9d0feb982d4a02b81f7fbccd0d2b1, type: 3}
   m_InferenceDevice: 0
-  m_BehaviorType: 2
+  m_BehaviorType: 0
   m_BehaviorName: SmallWallJump
   TeamId: 0
   m_UseChildSensors: 1
@@ -190,8 +190,10 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
-  noWallBrain: {fileID: 11400000, guid: fb2ce36eb40b6480e94ea0b5d7573e47, type: 3}
-  smallWallBrain: {fileID: 11400000, guid: fb2ce36eb40b6480e94ea0b5d7573e47, type: 3}
+  noWallBrain: {fileID: 5022602860645237092, guid: 5033e8099afb2495a894a55c18d5b6de,
+    type: 3}
+  smallWallBrain: {fileID: 5022602860645237092, guid: 5033e8099afb2495a894a55c18d5b6de,
+    type: 3}
   bigWallBrain: {fileID: 11400000, guid: 0468bf44b1efd4992b6bf22cadb50d89, type: 3}
   ground: {fileID: 1324926338613664}
   spawnArea: {fileID: 1886170194660384}
