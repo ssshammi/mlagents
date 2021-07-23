@@ -37,9 +37,13 @@ public class ObstacleCourseAgent : Agent
     public float jumpTime;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public Animator Rifleman;
 =======
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+    public Animator Rifleman;
+>>>>>>> 1df63e2 (Final Changes)
 =======
     public Animator Rifleman;
 >>>>>>> 1df63e2 (Final Changes)
@@ -92,11 +96,17 @@ public class ObstacleCourseAgent : Agent
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rifleman.SetBool("isJump", true);
         Rifleman.SetBool("isWalk", false);
         Rifleman.SetBool("isIdle", false);
 =======
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+        Rifleman.SetBool("isJump", true);
+        Rifleman.SetBool("isWalk", false);
+        Rifleman.SetBool("isIdle", false);
+>>>>>>> 1df63e2 (Final Changes)
 =======
         Rifleman.SetBool("isJump", true);
         Rifleman.SetBool("isWalk", false);
@@ -218,11 +228,17 @@ public class ObstacleCourseAgent : Agent
         AddReward(-0.0005f);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rifleman.SetBool("isJump", false);
         Rifleman.SetBool("isWalk", true);
         Rifleman.SetBool("isIdle", false);
 =======
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+        Rifleman.SetBool("isJump", false);
+        Rifleman.SetBool("isWalk", true);
+        Rifleman.SetBool("isIdle", false);
+>>>>>>> 1df63e2 (Final Changes)
 =======
         Rifleman.SetBool("isJump", false);
         Rifleman.SetBool("isWalk", true);

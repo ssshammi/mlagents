@@ -215,6 +215,7 @@ public class WallJumpAgent : Agent
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rifleman.SetBool("isJump", false);
         Rifleman.SetBool("isWalk", true);
         Rifleman.SetBool("isIdle", false);
@@ -223,6 +224,11 @@ public class WallJumpAgent : Agent
         Rifleman.SetBool("isWalk", true);
         Rifleman.SetBool("isIdle", false);*/
 >>>>>>> 825b61d (updated again All done)
+=======
+        Rifleman.SetBool("isJump", false);
+        Rifleman.SetBool("isWalk", true);
+        Rifleman.SetBool("isIdle", false);
+>>>>>>> 1df63e2 (Final Changes)
 =======
         Rifleman.SetBool("isJump", false);
         Rifleman.SetBool("isWalk", true);
@@ -265,12 +271,16 @@ public class WallJumpAgent : Agent
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               
 =======
                 Rifleman.SetBool("isJump", false);
                 Rifleman.SetBool("isWalk", true);
                 Rifleman.SetBool("isIdle", false);
 >>>>>>> 825b61d (updated again All done)
+=======
+              
+>>>>>>> 1df63e2 (Final Changes)
 =======
               
 >>>>>>> 1df63e2 (Final Changes)
