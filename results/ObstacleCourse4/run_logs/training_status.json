@@ -1,0 +1,40 @@
+{
+    "BigWallJump": {
+        "checkpoints": [
+            {
+                "steps": 8944,
+                "file_path": "results/ObstacleCourse4/BigWallJump/BigWallJump-8944.onnx",
+                "reward": -1.3167105552397276,
+                "creation_time": 1610036863.449048
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8944,
+            "file_path": "results/ObstacleCourse4/BigWallJump.onnx",
+            "reward": -1.3167105552397276,
+            "creation_time": 1610036863.449048
+        }
+    },
+    "SmallWallJump": {
+        "checkpoints": [
+            {
+                "steps": 5041,
+                "file_path": "results/ObstacleCourse4/SmallWallJump/SmallWallJump-5041.onnx",
+                "reward": -1.1245000123977662,
+                "creation_time": 1610036863.891793
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5041,
+            "file_path": "results/ObstacleCourse4/SmallWallJump.onnx",
+            "reward": -1.1245000123977662,
+            "creation_time": 1610036863.891793
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1",
+        "tensorflow_version": -1
+    }
+}

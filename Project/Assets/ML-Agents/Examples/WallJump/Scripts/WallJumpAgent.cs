@@ -214,6 +214,7 @@ public class WallJumpAgent : Agent
         AddReward(-0.0005f);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rifleman.SetBool("isJump", false);
         Rifleman.SetBool("isWalk", true);
         Rifleman.SetBool("isIdle", false);
@@ -222,6 +223,11 @@ public class WallJumpAgent : Agent
         Rifleman.SetBool("isWalk", true);
         Rifleman.SetBool("isIdle", false);*/
 >>>>>>> 825b61d (updated again All done)
+=======
+        Rifleman.SetBool("isJump", false);
+        Rifleman.SetBool("isWalk", true);
+        Rifleman.SetBool("isIdle", false);
+>>>>>>> 1df63e2 (Final Changes)
 
         var smallGrounded = DoGroundCheck(true);
         var largeGrounded = DoGroundCheck(false);
@@ -258,12 +264,16 @@ public class WallJumpAgent : Agent
             {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
               
 =======
                 Rifleman.SetBool("isJump", false);
                 Rifleman.SetBool("isWalk", true);
                 Rifleman.SetBool("isIdle", false);
 >>>>>>> 825b61d (updated again All done)
+=======
+              
+>>>>>>> 1df63e2 (Final Changes)
             }
 
         transform.Rotate(rotateDir, Time.fixedDeltaTime * 300f);

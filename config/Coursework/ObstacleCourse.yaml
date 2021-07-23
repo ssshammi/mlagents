@@ -1,9 +1,13 @@
 behaviors:
 <<<<<<< HEAD
+<<<<<<< HEAD
   ObstacleCourse:
 =======
   BigWallJump:
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+  ObstacleCourse:
+>>>>>>> 1df63e2 (Final Changes)
     trainer_type: ppo
     hyperparameters:
       batch_size: 128
@@ -25,6 +29,7 @@ behaviors:
         strength: 1.0
     keep_checkpoints: 5
 <<<<<<< HEAD
+<<<<<<< HEAD
     max_steps: 500000
     time_horizon: 128
     summary_freq: 50000
@@ -32,11 +37,18 @@ behaviors:
   ObstacleCourseHard:
 =======
     max_steps: 20000000
+=======
+    max_steps: 500000
+>>>>>>> 1df63e2 (Final Changes)
     time_horizon: 128
-    summary_freq: 20000
+    summary_freq: 50000
     threaded: true
+<<<<<<< HEAD
   SmallWallJump:
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+  ObstacleCourseHard:
+>>>>>>> 1df63e2 (Final Changes)
     trainer_type: ppo
     hyperparameters:
       batch_size: 128
@@ -57,6 +69,7 @@ behaviors:
         gamma: 0.99
         strength: 1.0
     keep_checkpoints: 5
+<<<<<<< HEAD
 <<<<<<< HEAD
     max_steps: 500000
     time_horizon: 128
@@ -66,4 +79,9 @@ behaviors:
     time_horizon: 128
     summary_freq: 20000
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+    max_steps: 500000
+    time_horizon: 128
+    summary_freq: 50000
+>>>>>>> 1df63e2 (Final Changes)
     threaded: true

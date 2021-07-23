@@ -177,6 +177,7 @@ MonoBehaviour:
   m_InferenceDevice: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_BehaviorType: 0
 =======
   m_BehaviorType: 1
@@ -184,6 +185,9 @@ MonoBehaviour:
 =======
   m_BehaviorType: 2
 >>>>>>> 825b61d (updated again All done)
+=======
+  m_BehaviorType: 0
+>>>>>>> 1df63e2 (Final Changes)
   m_BehaviorName: SmallWallJump
   TeamId: 0
   m_UseChildSensors: 1
@@ -206,14 +210,20 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1df63e2 (Final Changes)
   noWallBrain: {fileID: 5022602860645237092, guid: 5033e8099afb2495a894a55c18d5b6de,
     type: 3}
   smallWallBrain: {fileID: 5022602860645237092, guid: 5033e8099afb2495a894a55c18d5b6de,
     type: 3}
+<<<<<<< HEAD
 =======
   noWallBrain: {fileID: 11400000, guid: fb2ce36eb40b6480e94ea0b5d7573e47, type: 3}
   smallWallBrain: {fileID: 11400000, guid: fb2ce36eb40b6480e94ea0b5d7573e47, type: 3}
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+>>>>>>> 1df63e2 (Final Changes)
   bigWallBrain: {fileID: 11400000, guid: 0468bf44b1efd4992b6bf22cadb50d89, type: 3}
   ground: {fileID: 1324926338613664}
   spawnArea: {fileID: 1886170194660384}

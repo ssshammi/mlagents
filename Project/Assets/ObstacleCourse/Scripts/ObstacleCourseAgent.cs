@@ -36,9 +36,13 @@ public class ObstacleCourseAgent : Agent
     public float jumpingTime;
     public float jumpTime;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public Animator Rifleman;
 =======
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+    public Animator Rifleman;
+>>>>>>> 1df63e2 (Final Changes)
     // This is a downward force applied when falling to make jumps look
     // less floaty
     public float fallingForce;
@@ -87,11 +91,17 @@ public class ObstacleCourseAgent : Agent
     public void Jump()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rifleman.SetBool("isJump", true);
         Rifleman.SetBool("isWalk", false);
         Rifleman.SetBool("isIdle", false);
 =======
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+        Rifleman.SetBool("isJump", true);
+        Rifleman.SetBool("isWalk", false);
+        Rifleman.SetBool("isIdle", false);
+>>>>>>> 1df63e2 (Final Changes)
         jumpingTime = 0.2f;
         m_JumpStartingPos = m_AgentRb.position;
     }
@@ -207,11 +217,17 @@ public class ObstacleCourseAgent : Agent
     {
         AddReward(-0.0005f);
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rifleman.SetBool("isJump", false);
         Rifleman.SetBool("isWalk", true);
         Rifleman.SetBool("isIdle", false);
 =======
 >>>>>>> f4debb3 (Updated a Obstacle Course)
+=======
+        Rifleman.SetBool("isJump", false);
+        Rifleman.SetBool("isWalk", true);
+        Rifleman.SetBool("isIdle", false);
+>>>>>>> 1df63e2 (Final Changes)
         var smallGrounded = DoGroundCheck(true);
         var largeGrounded = DoGroundCheck(false);
 
